@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyRetrofit</string>
+
+    <string name="URL_BASE">http://samples.openweathermap.org/</string>
+    <string name="URL_GET_WEATHER">data/2.5/weather?q=London,uk&amp;appid=b6907d289e10d714a6e88b30761fae22</string>
+
+</resources>
