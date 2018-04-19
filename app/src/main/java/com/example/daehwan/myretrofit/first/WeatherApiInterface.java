@@ -1,10 +1,9 @@
-package com.example.daehwan.myretrofit;
+package com.example.daehwan.myretrofit.first;
 
-import com.example.daehwan.myretrofit.model.WeatherRepo;
+import com.example.daehwan.myretrofit.first.model.WeatherRepo;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
-import retrofit2.http.Header;
 
 /**
  * Created by miraclehwan on 2018-04-13.

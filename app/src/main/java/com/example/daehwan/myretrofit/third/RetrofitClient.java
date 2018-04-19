@@ -1,17 +1,18 @@
-package com.example.daehwan.myretrofit;
+package com.example.daehwan.myretrofit.third;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
- * Created by miraclehwan on 2018-04-13.
+ * Created by miraclehwan on 2018-04-19.
  */
 
 public class RetrofitClient {
+
     private static Retrofit retrofit = null;
 
-    public static Retrofit getClient(String baseUrl) {
-        if (retrofit==null) {
+    public static Retrofit getClient(String baseUrl){
+        if (retrofit==null){
             retrofit = new Retrofit.Builder()
                     .baseUrl(baseUrl)
                     .addConverterFactory(GsonConverterFactory.create())
@@ -19,4 +20,5 @@ public class RetrofitClient {
         }
         return retrofit;
     }
+
 }

@@ -1,8 +1,7 @@
-package com.example.daehwan.myretrofit.model;
+package com.example.daehwan.myretrofit.first.model;
 
 import com.google.gson.annotations.SerializedName;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**

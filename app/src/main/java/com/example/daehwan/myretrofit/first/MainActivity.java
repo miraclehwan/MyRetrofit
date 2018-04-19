@@ -1,16 +1,15 @@
-package com.example.daehwan.myretrofit;
+package com.example.daehwan.myretrofit.first;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.example.daehwan.myretrofit.model.WeatherRepo;
+import com.example.daehwan.myretrofit.R;
+import com.example.daehwan.myretrofit.first.model.WeatherRepo;
 
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
 
